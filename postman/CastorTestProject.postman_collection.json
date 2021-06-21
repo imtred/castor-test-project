@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "9f947083-3a69-42f5-98f2-2fa3ba6ec683",
+		"name": "CastorTestProject",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get user movement info #1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/1?lat=23.92323&long=-66.3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"1"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "23.92323"
+						},
+						{
+							"key": "long",
+							"value": "-66.3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get user movement info #2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/1?lat=20.709722&long=-156.253333",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"1"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "20.709722"
+						},
+						{
+							"key": "long",
+							"value": "-156.253333"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
